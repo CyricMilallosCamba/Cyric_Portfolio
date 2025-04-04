@@ -1,11 +1,173 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
- </head>
- <body>
-    
- </body>
- </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Portfolio | Roman Gero Arroyo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <!-- Bold the "Roman Gero Arroyo" logo -->
+   <h1 class="logo" style="
+    font-weight: bold; 
+    font-size: 2.5rem; 
+    color: #ffffff; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-align: center; 
+    position: relative;
+    display: inline-white;
+    padding: 10px 20px;
+    transition: color 0.3s ease-in-out;
+">
+  Portfolio
+</h1>
+
+    <nav>
+      <ul class="nav-links">
+      <li style="position: relative; list-style: none;">
+<a href="#about" class="nav-link" 
+   style="
+      font-weight: bold; 
+      color: #444; 
+      text-decoration: none; 
+      display: flex; 
+      align-items: center; 
+      gap: 10px;
+      padding: 10px 15px;
+      border-radius: 6px;
+      background: transparent;
+      transition: all 0.3s ease-in-out;
+   " 
+   aria-label="Learn more about me">
+   <i class="fa fa-user" aria-hidden="true" style="font-size: 1.2em;"></i> About Me
+</a>
+
+
+  <!-- Tooltip -->
+  <span class="tooltip" style="
+      position: absolute; 
+      background-color: #333; 
+      color: #fff; 
+      padding: 6px 12px; 
+      border-radius: 5px; 
+      font-size: 0.9em; 
+      white-space: nowrap; 
+      top: 35px; 
+      left: 50%; 
+      transform: translateX(-50%) scale(0.9);
+      opacity: 0;
+      visibility: hidden;
+      z-index: 10;
+      transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+    ">
+    Learn more about my background, skills, and experience.
+  </span>
+</li>
+
+
+<!-- Tooltip Wrapper -->
+<li style="position: relative; display: inline-block;">
+  <a href="#portfolio" class="nav-link" 
+     style="
+        font-weight: bold; 
+        color: #696969; 
+        text-decoration: none; 
+        display: flex; 
+        align-items: center; 
+        gap: 10px;
+        padding: 10px 15px;
+        border-radius: 6px;
+        transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+     " 
+     aria-label="View my portfolio">
+    <i class="fa fa-briefcase" aria-hidden="true" style="font-size: 1.2em;"></i> Projects
+  </a>
+
+  <!-- Tooltip -->
+  <span class="tooltip" 
+    style="
+      position: absolute; 
+      background-color: #333; 
+      color: #fff; 
+      padding: 8px 14px; 
+      border-radius: 6px; 
+      font-size: 0.85em; 
+      white-space: nowrap; 
+      top: 40px; 
+      left: 50%; 
+      transform: translateX(-50%) scale(0.9);
+      opacity: 0;
+      visibility: hidden;
+      z-index: 10;
+      transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+    ">
+    Explore the projects I've worked on.
+  </span>
+</li>
+
+
+
+
+<li style="position: relative; list-style: none;">
+  <a href="#contact" class="nav-link" 
+     style="
+        font-weight: bold; 
+        color: #444; 
+        text-decoration: none; 
+        display: flex; 
+        align-items: center; 
+        gap: 10px;
+        padding: 10px 15px;
+        border-radius: 6px;
+        transition: all 0.3s ease-in-out;
+     " 
+     aria-label="Get in touch with me">
+    <i class="fa fa-envelope" aria-hidden="true" style="font-size: 1.2em;"></i> Contact
+  </a>
+
+  <!-- Tooltip -->
+  <span class="tooltip" 
+    style="
+      position: absolute; 
+      bottom: -35px; 
+      left: 50%; 
+      transform: translateX(-50%) scale(0.95); 
+      background: #333; 
+      color: #fff; 
+      padding: 8px 12px; 
+      font-size: 0.85em; 
+      border-radius: 6px; 
+      white-space: nowrap; 
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+    ">
+    Reach out for collaboration or inquiries.
+  </span>
+</li>
+
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section id="about" class="section" style="background-color: #f9f9f9; padding: 50px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px;">
+  <div class="container" style="max-width: 800px; margin: 0 auto; text-align: center;">
+    <h2 style="font-size: 2.5em; color: #333; margin-bottom: 20px; font-family: 'Poppins', sans-serif;">About Me</h2>
+    <p style="color: #666; font-size: 1.2em; margin-bottom: 30px; line-height: 1.6;">
+      I'm <strong>Roman Gero Arrotyo</strong>, a second-year IT student at <strong>STI Alaminos, Pangasinan</strong>. Passionate about coding, web development, and always eager to learn new technologies. 
+      I specialize in <span style="font-weight: bold; color: #3498db;">HTML, CSS, JavaScript, and Python</span>, and I’m actively working on projects to improve my skills as a <strong>full-stack developer</strong>.
+    </p>
+
+     <div style="color: #333; font-size: 1.2em; margin-top: 30px;">
+      <p><strong>Ed
