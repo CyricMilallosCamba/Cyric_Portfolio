@@ -1,4 +1,4 @@
-# Roman Gero Arrotyo - Portfolio  
+# Cyric Camba - Portfolio  
 
 Welcome to my personal portfolio website! 🎨🚀  
 This project highlights my skills, projects, and experience as a **second-year IT student** at **STI Alaminos, Pangasinan**
@@ -44,7 +44,7 @@ Feel free to explore my work, connect with me, and learn more about my journey i
 ## 📞 Contact  
 Feel free to reach out for collaboration, inquiries, or just to say hello!  
 
-- **👤 Name:** Roman Gero Arroyo  
-- **📧 Email:** [geroarroyo2233@email.com](mailto:geroarroyo2233@email.com)  
+- **👤 Name:** Cyric Camba  
+- **📧 Email:** [CyricMilallosCamba](mailto:CyricMilallosCamba)  
 - **💼 LinkedIn:** [Connect with me](#)  
 - **🌐 Portfolio:** [My Website](#)
