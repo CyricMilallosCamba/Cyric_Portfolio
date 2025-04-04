@@ -1,38 +1,50 @@
-# Project Name
+# Roman Gero Arrotyo - Portfolio  
 
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/your-repo-name)
-![GitHub contributors](https://img.shields.io/github/contributors/your-username/your-repo-name)
-![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo-name?style=social)
+Welcome to my personal portfolio website! 🎨🚀  
+This project highlights my skills, projects, and experience as a **second-year IT student** at **STI Alaminos, Pangasinan**
 
-## Description
-A brief description of your project, what it does, and its purpose.
+Feel free to explore my work, connect with me, and learn more about my journey in the world of **Information Technology**!  
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
 
-## Installation
-```sh
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-npm install  # or any setup command
+## 🚀 Features  
+
+- 💼 **Portfolio Showcase** – Displays my best projects with descriptions and images.  
+- 📬 **Contact Form** – Allows visitors to send inquiries directly from the website.  
+- 🌙 **Dark Mode Toggle** – Users can switch between light and dark themes for better accessibility.  
+- ⚡ **Interactive Navigation** – Smooth scrolling and easy-to-use menu links.    
+
+
+## 🛠 Technologies Used  
+
+- **HTML5** 🏗️ – Provides the structure and foundation of the website.  
+- **CSS3** 🎨 – Enhances design, layout, and responsiveness for a better user experience.  
+- **JavaScript (JS)** ⚡ – Adds interactivity and dynamic features.  
+- **Flexbox & Grid** 📏 – Used for modern, responsive layouts.  
+- **Dark Mode Toggle** 🌙 – JavaScript-powered theme switcher for a better UI experience.  
+- **Form Validation** ✅ – Ensures user input accuracy in the contact form.  
+
+
+## 📂 Project Structure
+```
+📁 my-portfolio
+│── 📄 index.html      # Main HTML file
+│── 📄 styles.css      # Stylesheet for design
+│── 📄 script.js       # JavaScript for interactivity
+│── 📂 assets          # Images and media files
+│── 📄 README.md       # Project documentation
 ```
 
-## Usage
-```sh
-npm start  # or any run command
-```
+## 📌 Setup Instructions
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/ROMANGEROARROYO/my-portfolio.git
+   ```
+2. Open the project folder and launch `index.html` in a browser.
 
-## Contributing
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Open a Pull Request
+## 📞 Contact  
+Feel free to reach out for collaboration, inquiries, or just to say hello!  
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-For issues or suggestions, reach out at [your email] or create an issue in this repository.
+- **👤 Name:** Roman Gero Arroyo  
+- **📧 Email:** [geroarroyo2233@email.com](mailto:geroarroyo2233@email.com)  
+- **💼 LinkedIn:** [Connect with me](#)  
+- **🌐 Portfolio:** [My Website](#)
